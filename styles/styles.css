@@ -58,6 +58,23 @@ h2 {
     color: #c7c5c5;
 }
 
+.btn-view-more {
+    width: 100px;
+    height: 22px;
+    border-radius: 4px;
+    background-color: #4f4d6a;
+    color: #ffffff;
+    font-size: .75rem;
+    font-style: italic;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.btn-view-more:hover{
+    background-color: #646289;
+    color: #c7c5c5;
+}
+
 #banner {
     height: 100vh;
     max-height: 1135px;
@@ -102,6 +119,15 @@ header nav {
     padding-bottom: 100px;
 }
 
+#awesome{
+    margin: 50px auto;
+    font-style: italic;
+}
+
+#awesome h4{
+    margin-bottom: 30px;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 4.8rem;
@@ -115,5 +141,8 @@ header nav {
     .btn-see-worx {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+    .btn-view-more{
+        margin-bottom: 30px;
     }
 }
