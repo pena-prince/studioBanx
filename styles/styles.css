@@ -62,6 +62,14 @@ header nav {
     font-size: .75rem;
 }
 
+#hero .we-are{
+    font-size: 1.5rem;
+}
+
+#hero .hero-text{
+    font-family: 'PT Sans', sans-serif;
+}
+
 @media (max-width: 768px) {
     #banner {
         background-position: center;
